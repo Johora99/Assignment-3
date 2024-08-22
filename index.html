@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- =======================CDN of Font Awesome========================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- ===============Google Font====================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- =============CDN of DaisyUI================ -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <!-- ================CDN of Tailwind css==================== -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'black-light':'rgb(33, 33, 33)',
+            'black-lighter':'rgb(28, 28, 28)',
+            'black-lightest':'rgb(73, 73, 73)',
+            'green-light':'rgb(171, 239, 95)',
+            'gray':'rgb(115, 115, 115)',
+            'white-light':'#F8F8F8',
+            'border-1':'rgb(233, 233, 233)',
+            'border-2':'rgb(171, 239, 95)',
+            'btn-bg':'rgba(171, 239, 95, 0.5)',
+          },
+           fontFamily: {
+          'manrope':'Manrope',
+    }
+    
+        }
+      }
+    }
+  </script>
+
+</head>
+<body class="font-manrope">
+    <!-- ======================header area start============================= -->
+     <header class="bg-white-light w-full pb-10 md:pb-20" >
+        <div class="max-w-screen-2xl container mx-auto w-11/12">
+          <!-- ==================nav area start=========================== -->
+            <nav class="py-8">
+                <div class="navbar">
+      <div class="navbar-start">
+       
+            <div class=" bg-green-light rounded-full p-2 me-2 cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 text-black-lighter">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                 </svg>
+                </div>
+                <a class="text-black-light text-3xl font-extrabold">Rinterio</a>
+      
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1 *:text-gray *:text-base *:font-normal space-x-5  *:transition-all *:duration-500 *:ease-in-out ">
+           <li><a class="text-black-lightest font-extrabold">Home</a></li>
+            <li><a class="hover:text-black-lightest hover:font-extrabold">Services</a></li>
+            <li><a class="hover:text-black-lightest hover:font-extrabold">Portfolio</a></li>
+            <li><a class="hover:text-black-lightest hover:font-extrabold">Blogs</a></li>
+            <li><a class="hover:text-black-lightest hover:font-extrabold">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end gap-3">
+        <div class="bg-white p-3 border rounded-full border-border-1 cursor-pointer hidden md:block">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-[18px] text-gray">
+
+            <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+            </svg>
+        </div>
+        <div class="bg-white p-3 border rounded-full border-border-1 cursor-pointer hidden md:block">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"  class="w-[18px] text-gray">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+    </svg>
+    
+    </div>
+        <a class="btn border-none rounded-full text-black-lighter font-extrabold text-xl bg-green-light hover:outline hover:outline-2 hover:outline-green-light hover:outline-offset-2 hover:bg-transparent hidden md:inline-flex">
+            Book Consult
+            <div class="bg-black-lighter rounded-full p-2">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 text-white">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                </svg>
+            </div>
+        </a>
+         <div class="dropdown">
+          <div tabindex="0" role="button" class="lg:hidden bg-white rounded-full p-3 ">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-gray">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+         </svg>
+
+          </div>
+          <ul
+            tabindex="0"
+            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow *:text-gray *:text-base *:font-normal right-0">
+            <li><a>Home</a></li>
+            <li><a>Services</a></li>
+            <li><a>Portfolio</a></li>
+            <li><a>Blogs</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+            </nav>
+            <!-- ===========================nav area end===================== -->
+             <!--====================== hero area start =============================-->
+             <div>
+                  <div class="flex justify-center">
+                <img src="./assets/banner.png" alt="" >
+            </div>
+            <div class="hero ">
+            <div class="hero-content text-center">
+        <div class="">
+      <h1 class="text-3xl md:text-6xl font-extrabold text-black-light mt-5">A barn house of this design has a <br class="hidden md:block"> striking appearance</h1>
+      <p class="text-black-lightest text-sm md:text-base font-medium my-5 md:my-8">
+       The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br class="hidden md:block"> accents, and large windows that flood the space with natural light.
+      </p>
+      <button class="inline-block w-full">
+         <a class="btn border-border-2 rounded-full text-black-lighter font-extrabold text-xl bg-btn-bg hover:outline hover:outline-2 hover:outline-green-light hover:outline-offset-2 hover:bg-transparent w-full md:w-fit">
+           View Details
+            <div class="bg-green-light rounded-full p-2">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 text-black-lighter">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                </svg>
+            </div>
+        </a>
+      </button>
+    </div>
+  </div>
+</div>
+             </div>
+              <!--====================== hero area end =============================-->
+        </div>
+     </header>
+    <!-- ======================header area end============================= -->
+    
+     
+     
+           
+   
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
