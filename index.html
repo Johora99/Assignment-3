@@ -40,7 +40,6 @@
     },
       backgroundImage: {
         'gradient-bg': 'linear-gradient(to bottom, rgb(248, 248, 248) 10%, rgb(249, 249, 249) 30%, rgb(255, 255, 255) 90%)',
-
         
       },
     
@@ -58,14 +57,14 @@
   </style>
 
 </head>
-<body class="font-manrope">
+<body class=" font-manrope">
     <!-- ======================header area start============================= -->
      <header class="bg-gradient-bg w-full pb-10 md:pb-20" >
         <div class="max-w-screen-2xl container mx-auto w-11/12">
           <!-- ==================nav area start=========================== -->
             <nav class="py-8">
-                <div class="navbar">
-      <div class="navbar-start">
+                <div class="navbar justify-between">
+      <div class="navbar-start w-fit">
        
             <div class=" bg-green-light rounded-full p-2 me-2 cursor-pointer">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 text-black-lighter">
@@ -84,7 +83,7 @@
             <li><a class="hover:text-black-lightest hover:font-extrabold">Contact Us</a></li>
         </ul>
       </div>
-      <div class="navbar-end gap-3">
+      <div class="navbar-end gap-3 w-fit">
         <div class="bg-white p-3 border rounded-full border-border-1 cursor-pointer hidden md:block">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-[18px] text-gray">
 
@@ -134,7 +133,7 @@
             <div class="hero ">
             <div class="hero-content text-center">
         <div class="">
-      <h1 class="text-3xl md:text-6xl font-extrabold text-black-light mt-5">A barn house of this design has a <br class="hidden md:block"> striking appearance</h1>
+      <h1 class="text-3xl md:text-6xl font-[800] text-black-light mt-5">A barn house of this design has a <br class="hidden md:block"> striking appearance</h1>
       <p class="text-black-lightest text-sm md:text-base font-medium my-5 md:my-8">
        The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br class="hidden md:block"> accents, and large windows that flood the space with natural light.
       </p>
@@ -163,6 +162,7 @@
       <div class="bg-main-bg w-full">
 
         <section class="max-w-screen-2xl container mx-auto w-11/12 py-10 md:py-20">
+          <img src="./assets/Vector.png" alt="" class="mb-5 -ms-10 hidden md:block">
           <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
             <div>
               <div class="flex items-center bg-white rounded-full w-fit py-2 px-4 gap-2 mb-5 mx-auto lg:mx-0">
@@ -179,17 +179,17 @@
               </div>
               <div class=" flex flex-col md:flex-row lg:flex-col gap-5 lg:gap-0">
   
-                <div class="flex bg-white mb-5 sm:mb-10 md:mb-12 p-6 rounded-2xl gap-5 items-center">
-                  <img src="./assets/commercial.png" alt="" class="w-ful h-auto">
+                <div class="flex bg-white mb-5 sm:mb-10 md:mb-12 p-6 rounded-2xl gap-5 items-start md:items-center">
+                  <img src="./assets/commercial.png" alt="" class="w-[40px] md:w-auto h-auto">
                   <div>
-                    <h5 class="text-black-lightest font-extrabold text-xl mb-2">Commercial</h5>
+                    <h5 class="text-black-lightest font-extrabold text-base md:text-xl mb-2">Commercial</h5>
                     <p class="text-gray text-base font-medium">The barn house captivates with its blend <br class="hidden lg:block"> of rustic charm and modern.</p>
                   </div>
                 </div>
-                <div class="flex bg-white p-6 sm:mb-12  rounded-2xl gap-5 items-center">
-                  <img src="./assets/residential.png" alt="" class="w-ful h-auto">
+                <div class="flex bg-white p-6 sm:mb-12  rounded-2xl gap-5 items-start md:items-center">
+                  <img src="./assets/residential.png" alt="" class="w-[40px] md:w-auto h-auto">
                   <div>
-                    <h5 class="text-black-lightest font-extrabold text-xl mb-2">Residential</h5>
+                    <h5 class="text-black-lightest font-extrabold text-base md:text-xl mb-2">Residential</h5>
                     <p class="text-gray text-base font-medium">The barn house captivates with its blend <br class="hidden lg:block"> of rustic charm and modern.</p>
                   </div>
                 </div>
@@ -201,7 +201,7 @@
             </div>
           </div>
         </section>
-        <section class="max-w-screen-2xl container mx-auto w-11/12 pb-20">
+        <section class="max-w-screen-2xl container mx-auto w-11/12 py-10 md:pb-20">
           <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4  bg-white py-12 rounded-3xl justify-items-center text-center gap-12 lg:gap-0">
             <div >
            
@@ -210,7 +210,7 @@
                   <img src="./assets/comment-01.png" alt="">
                 </div>
         
-              <h2 class="text-black-lightest font-extrabold text-4xl my-2">235+</h2>
+              <h2 class="text-black-lightest font-extrabold text-3xl md:text-4xl my-2">235+</h2>
               <p class="text-gray text-base font-medium">Happy Client Review</p>
             </div>
             <div>
@@ -218,7 +218,7 @@
   
                 <img src="./assets/departement.png" alt="">
               </div>
-              <h2 class="text-black-lightest font-extrabold text-4xl my-2">50+</h2>
+              <h2 class="text-black-lightest font-extrabold text-3xl md:text-4xl my-2">50+</h2>
               <p class="text-gray text-base font-medium">Work Departments</p>
             </div>
             <div>
@@ -226,7 +226,7 @@
   
                 <img src="./assets/Group 8.png" alt="">
               </div>
-              <h2 class="text-black-lightest font-extrabold text-4xl my-2">30k+</h2>
+              <h2 class="text-black-lightest font-extrabold text-3xl md:text-4xl my-2">30k+</h2>
               <p class="text-gray text-base font-medium">Our Happy Client</p>
             </div>
             <div>
@@ -234,12 +234,12 @@
   
                 <img src="./assets/user-multiple (1).png" alt="">
               </div>
-              <h2 class="text-black-lightest font-extrabold text-4xl my-2">307+</h2>
+              <h2 class="text-black-lightest font-extrabold text-3xl md:text-4xl my-2">307+</h2>
               <p class="text-gray text-base font-medium">Staff Members</p>
             </div>
           </div>
         </section>
-        <section class="max-w-screen-2xl container mx-auto w-11/12 pb-20">
+        <section class="max-w-screen-2xl container mx-auto w-11/12 pb-10 md:pb-20">
           <div class="text-center">
               <div class="flex items-center bg-white rounded-full w-fit py-2 px-4 gap-2 mb-5 mx-auto">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 text-black-lightest">
@@ -256,7 +256,7 @@
             <div class="bg-card-1 p-6 rounded-2xl">
               <img src="./assets/concept.png" alt="">
               <h5 class="text-black-lighter font-extrabold text-xl my-2">Concept</h5>
-              <p class="text-black-lightest text-base font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
+              <p class="text-black-lightest text-base font-medium">The barn house captivates  with its blend of rustic charm  and modern.</p>
             </div>
             <div class="bg-card-2 p-6 rounded-2xl">
               <img src="./assets/flow-chart.png" alt="">
@@ -276,8 +276,8 @@
           </div>
         </section>
       </div>
-      <div class="bg-white w-ful">
-        <section class="max-w-screen-2xl container mx-auto w-11/12 py-20">
+      <div class="bg-main-bg md:bg-white w-ful">
+        <section class="max-w-screen-2xl container mx-auto w-11/12 pb-10 md:py-20">
          <div class="text-center">
               <div class="flex items-center bg-btn-bg-1 rounded-full w-fit py-2 px-4 gap-2 mb-5 mx-auto">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 text-black-lightest">
@@ -293,12 +293,12 @@
           
               <div>
                 <div class="grid grid-col-1 lg:grid-cols-4 gap-5 items-center justify-center">
-                  <div class="flex flex-col lg:flex-row items-center col-span-full lg:col-span-3 gap-10 border border-border-1 p-6 rounded-2xl">
+                  <div class="flex flex-col lg:flex-row items-center col-span-full lg:col-span-3 gap-10 border border-border-1 p-6 rounded-2xl bg-white">
                     <img src="./assets/img1.png" alt="" class="w-full h-[250px] md:h-auto lg:w-auto">
                     <div>
-                      <h4 class="text-2xl font-extrabold text-black-lightest">Commercial</h4>
+                      <h4 class="text-xl md:text-2xl font-extrabold text-black-lightest">Commercial</h4>
                       <p class="text-gray text-base font-medium my-5">The barn house captivates with its blend of rustic charm and modern" suggests a design that seamlessly combines traditional, rural aesthetics with contemporary elements. The term "rustic charm" evokes images of natural materials, exposed wooden beams, and a cozy.</p>
-                       <a class="text-black-light font-extrabold text-xl inline-flex gap-2">
+                       <a class="text-black-light font-extrabold text-base md:text-xl inline-flex gap-2 cursor-pointer">
                        View Details
                       <div class="bg-green-light rounded-full p-2">
                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 text-black-light">
@@ -309,20 +309,20 @@
 
                     </div>
                   </div>
-                  <div class="col-span-1 justify-self-end border border-border-1 p-6 rounded-2xl w-full">
+                  <div class="col-span-1 justify-self-end border border-border-1 p-6 rounded-2xl w-full bg-white">
                     <img src="./assets/img2.png" alt="" class="w-full h-[250px] md:h-auto">
                   </div>
                 </div>
                 <div class="grid grid-cols-1 lg:grid-cols-5 mt-5 gap-5">
-                  <div class="col-span-full lg:col-span-1 border border-border-1 p-6 rounded-2xl justify-self-center w-full order-3 md:order-1">
+                  <div class="col-span-full lg:col-span-1 border border-border-1 p-6 rounded-2xl justify-self-center w-full order-3 md:order-1 bg-white">
                     <img src="./assets/img3.png" alt="" class="w-full h-[250px] md:h-auto">
                   </div>
-                  <div class="flex flex-col lg:flex-row col-span-full lg:col-span-3 border border-border-1 p-6 rounded-2xl items-center gap-8 order-2">
+                  <div class="flex flex-col lg:flex-row col-span-full lg:col-span-3 border border-border-1 p-6 rounded-2xl items-center gap-8 order-2 bg-white">
                       <img src="./assets/img4.png" alt="" class="w-full h-[250px] md:h-auto lg:w-auto">
                      <div>
-                      <h4 class="text-2xl font-extrabold text-black-lightest">Commercial</h4>
+                      <h4 class="text-xl md:text-2xl font-extrabold text-black-lightest">Commercial</h4>
                       <p class="text-gray text-base font-medium my-5">The barn house captivates with its blend of rustic charm and modern" suggests a design that seamlessly combines traditional,rural aesthetics with contemporary elements.</p>
-                       <a class="text-black-light font-extrabold text-xl inline-flex gap-2">
+                       <a class="text-black-light font-extrabold text-base md:text-xl inline-flex gap-2 cursor-pointer">
                        View Details
                       <div class="bg-green-light rounded-full p-2">
                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 text-black-light">
@@ -333,10 +333,10 @@
 
                     </div>
                   </div>
-                  <div class="lg:col-span-1 border border-border-1 p-6 rounded-2xl justify-self-center w-full order-1 md:order-3">
+                  <div class="lg:col-span-1 border border-border-1 p-6 rounded-2xl justify-self-center w-full order-1 md:order-3 bg-white">
                     <img src="./assets/img5.png" alt="" class="w-full h-[250px] md:h-auto">
                   </div>
-                  <div class="lg:col-span-1 border border-border-1 p-6 rounded-2xl justify-self-center w-full order-4 md:order-3 lg:hidden">
+                  <div class="lg:col-span-1 border border-border-1 p-6 rounded-2xl justify-self-center w-full order-4 md:order-3 lg:hidden bg-white">
                     <img src="./assets/img5.png" alt="" class="w-full h-[250px] md:h-auto">
                   </div>
                 </div>
@@ -345,8 +345,8 @@
         </section>
 
       </div>
-      <div class="bg-main-bg w-full border-b-8 border-white">
-        <section class="max-w-screen-2xl container mx-auto w-11/12 py-20">
+      <div class="bg-main-bg w-full ">
+        <section class="max-w-screen-2xl container mx-auto w-11/12 md:py-20">
           <div>
               <div class="text-center">
               <div class="flex items-center bg-btn-bg-1 rounded-full w-fit py-2 px-4 gap-2 mb-5 mx-auto">
@@ -381,8 +381,8 @@
               </div>
               <h5 class="text-xl text-black-lightest font-extrabold">How to choose the furniture right <br class="hidden lg:block">  of your home.</h5>
               <p class="text-gray font-medium text-base my-3">The barn house captivates with its blend <br class="hidden lg:block">  of rustic charm and modern. </p>
-                <a class="text-black-light font-extrabold text-lg inline-flex gap-2">
-                       View Details
+                <a class="text-black-light font-extrabold text-base md:text-lg inline-flex gap-2 cursor-pointer">
+                       Read More
                       <div class="bg-green-light rounded-full p-2">
                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 text-black-light">
                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
@@ -411,8 +411,8 @@
               </div>
               <h5 class="text-xl text-black-lightest font-extrabold">How to choose the furniture right <br class="hidden lg:block">  of your home.</h5>
               <p class="text-gray font-medium text-base my-3">The barn house captivates with its blend <br class="hidden lg:block">  of rustic charm and modern. </p>
-                <a class="text-black-light font-extrabold text-lg inline-flex gap-2">
-                       View Details
+                <a class="text-black-light font-extrabold text-base md:text-lg inline-flex gap-2 cursor-pointer">
+                      Read More
                       <div class="bg-green-light rounded-full p-2">
                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 text-black-light">
                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
@@ -441,8 +441,8 @@
               </div>
               <h5 class="text-xl text-black-lightest font-extrabold">How to choose the furniture right <br class="hidden lg:block">  of your home.</h5>
               <p class="text-gray font-medium text-base my-3">The barn house captivates with its blend <br class="hidden lg:block">  of rustic charm and modern. </p>
-                <a class="text-black-light font-extrabold text-lg inline-flex gap-2">
-                       View Details
+                <a class="text-black-light font-extrabold text-base md:text-lg inline-flex gap-2 cursor-pointer">
+                      Read More
                       <div class="bg-green-light rounded-full p-2">
                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 text-black-light">
                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
@@ -456,51 +456,13 @@
           </div>
         </section>
       </div>
-      <div class="w-full bg-img">
-        <section class="max-w-screen-2xl container mx-auto w-11/12 py-20">
-          <div>
-             <div class="text-center">
-              <div class="flex items-center bg-btn-bg-1 rounded-full w-fit py-2 px-4 gap-2 mb-5 mx-auto">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 text-black-lightest">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
-                </svg>
-                  <a href="" class="text-black-lightest text-base font-bold">Let’s Connect</a>
-              </div>
-              <div>
-                <h2 class="text-black-light text-2xl md:text-4xl font-bold">Let’s Discuss Next Project</h2>
-                <p class="text-black-lightest text-base font-medium mt-5 mb-10">The barn house captivates with its blend of rustic charm and modern sophistication, <br class="hidden md:block">  featuring weathered wood, sleek metal accents.</p>
-              </div>
+       <!-- ===============uniq section start=========================== -->
+      <div class="bg-main-bg w-full border-b-8 border-white ">
+        <section class="max-w-screen-2xl container mx-auto w-11/12 py-10 md:pb-20">
+          <div class="text-center md:text-left">
+            <h4 class="text-black-lightest font-normal text-xl md:text-2xl underline underline-offset-8 decoration-green-light">What We Offer</h4>
+            <h2 class="text-black-light text-4xl md:text-5xl font-medium mt-5 mb-10 capitalize">We are careful at <br class="hidden md:block"> every step</h2>
           </div>
-          <div>
-            <form action="" class="lg:w-10/12 mx-auto">
-             <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 mb-8">
-               <input type="text" name="" id="" placeholder="First Name*" class="p-5 rounded-full placeholder:font-medium placeholder:text-base placeholder:text-place">
-               <input type="text" name="" id="" placeholder="Last Name*" class="p-5 rounded-full placeholder:font-medium placeholder:text-base placeholder:text-place">
-
-             </div>
-             <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 mb-8">
-              <input type="number" name="" id="" placeholder="Phone Number*" class="p-5 rounded-full placeholder:font-medium placeholder:text-base placeholder:text-place">
-              <input type="email" name="" id="" placeholder="Email Number*" class="p-5 rounded-full placeholder:font-medium placeholder:text-base placeholder:text-place">
-             </div>
-             <textarea name="" id="" cols="30" rows="10" placeholder="Write your message here" class="rounded-3xl p-5 w-full mb-8 placeholder:font-medium placeholder:text-base placeholder:text-place"></textarea>
-              <button class="w-full">
-                <a class="btn border-none rounded-full text-black-lighter font-extrabold text-xl bg-green-light hover:outline hover:outline-2 hover:outline-green-light hover:outline-offset-2 hover:bg-transparent md:inline-flex w-full">
-           Send Mail
-            <div class="bg-black-lighter rounded-full p-2">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 text-white">
-                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-                </svg>
-            </div>
-        </a>
-              </button>
-            </form>
-          </div>
-          </div>
-        </section>
-      </div>
-      <!-- ===============uniq section start=========================== -->
-      <div class="bg-main-bg w-full border-b-[16px] border-white">
-        <section class="max-w-screen-2xl container mx-auto w-11/12 py-20">
           <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
 
             <div class="text-center lg:text-left bg-white p-10 rounded-3xl lg:col-span-1">
@@ -584,6 +546,49 @@
         </section>
       </div>
       <!-- ===============uniq section end============================= -->
+      <div class="w-full bg-img border-b-[16px] border-white">
+        <section class="max-w-screen-2xl container mx-auto w-11/12 py-10 md:py-20">
+          <div>
+             <div class="text-center">
+              <div class="flex items-center bg-btn-bg-1 rounded-full w-fit py-2 px-4 gap-2 mb-5 mx-auto">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 text-black-lightest">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                </svg>
+                  <a href="" class="text-black-lightest text-base font-bold">Let’s Connect</a>
+              </div>
+              <div>
+                <h2 class="text-black-light text-2xl md:text-4xl font-bold">Let’s Discuss Next Project</h2>
+                <p class="text-black-lightest text-base font-medium mt-5 mb-10">The barn house captivates with its blend of rustic charm and modern sophistication, <br class="hidden md:block">  featuring weathered wood, sleek metal accents.</p>
+              </div>
+          </div>
+          <div>
+            <form action="" class="lg:w-10/12 mx-auto">
+             <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 mb-8">
+               <input type="text" name="" id="" placeholder="First Name*" class="p-5 rounded-full placeholder:font-medium placeholder:text-base placeholder:text-place">
+               <input type="text" name="" id="" placeholder="Last Name*" class="p-5 rounded-full placeholder:font-medium placeholder:text-base placeholder:text-place">
+
+             </div>
+             <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 mb-8">
+              <input type="number" name="" id="" placeholder="Phone Number*" class="p-5 rounded-full placeholder:font-medium placeholder:text-base placeholder:text-place">
+              <input type="email" name="" id="" placeholder="Email Number*" class="p-5 rounded-full placeholder:font-medium placeholder:text-base placeholder:text-place">
+             </div>
+             <textarea name="" id="" cols="30" rows="10" placeholder="Write your message here" class="rounded-3xl p-5 w-full mb-8 placeholder:font-medium placeholder:text-base placeholder:text-place"></textarea>
+              <button class="w-full">
+                <a class="btn border-none rounded-full text-black-lighter font-extrabold text-xl bg-green-light hover:outline hover:outline-2 hover:outline-green-light hover:outline-offset-2 hover:bg-transparent md:inline-flex w-full">
+           Send Mail
+            <div class="bg-black-lighter rounded-full p-2">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 text-white">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                </svg>
+            </div>
+        </a>
+              </button>
+            </form>
+          </div>
+          </div>
+        </section>
+      </div>
+     
      </main>
      <!-- ==================main area end============================== -->
     <!--====================footer area start============================== -->
